@@ -1,0 +1,8 @@
+/* static/css/style.css */
+body {
+    background-image: url("{% static 'static/images/33.jpg' %}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: makes the background image fixed during scrolling */
+}
